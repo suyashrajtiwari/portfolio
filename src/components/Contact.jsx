@@ -12,7 +12,7 @@ export default function Contact() {
     <section id="contact" style={{ padding: '6rem 3rem', background: 'var(--bg2)' }}>
       <div style={{ maxWidth: 1100, margin: '0 auto' }}>
         <AnimatedSection>
-          <div style={{ fontFamily: 'var(--mono)', fontSize: '0.7rem', color: 'var(--accent)', letterSpacing: '3px', textTransform: 'uppercase', marginBottom: '0.5rem' }}>// 05 — connect</div>
+          {/* <div style={{ fontFamily: 'var(--mono)', fontSize: '0.7rem', color: 'var(--accent)', letterSpacing: '3px', textTransform: 'uppercase', marginBottom: '0.5rem' }}>// 05 — connect</div> */}
           <h2 style={{ fontSize: 'clamp(2rem,4vw,3rem)', fontWeight: 800, marginBottom: '3rem' }}>
             Let's <span style={{ color: 'var(--accent)' }}>Connect</span>
           </h2>

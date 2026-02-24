@@ -1,3 +1,5 @@
+
+
 import { useState } from 'react';
 import { ASSETS } from '../assets/assets';
 import AnimatedSection from './AnimatedSection';
@@ -5,11 +7,11 @@ import AnimatedSection from './AnimatedSection';
 const IMAGE_CERTS = [
   { src: 'plc',      name: 'AutomateX: Mastering PLCs',    meta: 'Industrial Automation · Aug 2025' },
   { src: 'hackathon',name: 'SEEE LPU Hackathon',           meta: 'Participation · Apr 2025' },
-  { src: 'C++', name: "CS107: C++ Programming (Saylor Academy)",   meta: 'Meshmerize Challenge · Mar 2025' },
+  { src: 'cognitia', name: "CS107: C++ Programming (Saylor Academy)",   meta: 'Certificate of Completion' },
 ];
 
 const TEXT_CERTS = [
-  { name: 'CS107: C++ Programming (Saylor Academy)', date: 'Certificate of Completion' },
+  { name: 'Cognitia 25 — 1st Position', date: 'Meshmerize Challenge · Mar 2025' },
   { name: 'Electronics from Soup to Nuts',           date: 'Apr 2024' },
   { name: 'Microcontroller Embedded C for Beginners',date: 'Nov 2023' },
   { name: 'Python Scalar Certificate',               date: 'Dec 2023' },

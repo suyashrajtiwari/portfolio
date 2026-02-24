@@ -11,7 +11,7 @@ export default function Education() {
     <section id="education" style={{ padding: '6rem 3rem' }}>
       <div style={{ maxWidth: 1100, margin: '0 auto' }}>
         <AnimatedSection>
-          <div style={{ fontFamily: 'var(--mono)', fontSize: '0.7rem', color: 'var(--accent)', letterSpacing: '3px', textTransform: 'uppercase', marginBottom: '0.5rem' }}>// 04 — background</div>
+          {/* <div style={{ fontFamily: 'var(--mono)', fontSize: '0.7rem', color: 'var(--accent)', letterSpacing: '3px', textTransform: 'uppercase', marginBottom: '0.5rem' }}>// 04 — background</div> */}
           <h2 style={{ fontSize: 'clamp(2rem,4vw,3rem)', fontWeight: 800, marginBottom: '3rem' }}>
             Education <span style={{ color: 'var(--accent)' }}>Timeline</span>
           </h2>
