@@ -34,6 +34,22 @@ const PROJECTS = [
     ],
     tech: ['ESP32', 'Arduino IDE', 'Blynk IoT', 'Machine Learning', 'C'],
   },
+  {
+  num: '04',
+  date: 'Nov 2025',
+  color: 'var(--accent4)',
+  title: 'Classroom Power Management System',
+  sub: 'ESP32 · IoT · Automation',
+
+  points: [
+    'Designed and implemented an intelligent classroom power management system using ESP32 microcontroller.',
+    'Integrated DHT22 sensor to monitor ambient temperature and automatically regulate fan speed.',
+    'Utilized PIR sensor for occupancy detection to control lighting and fan operation for energy conservation.',
+    'Developed an automated control logic to minimize power wastage by switching off appliances when the room is unoccupied.',
+  ],
+
+  tech: ['ESP32', 'DHT22', 'PIR Sensor', 'Arduino IDE', 'MicroPython', 'IoT'],
+}
 ];
 
 export default function Projects() {
